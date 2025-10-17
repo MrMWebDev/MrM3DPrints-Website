@@ -20,7 +20,7 @@ async function loadEtsyProducts() {
             const card = document.createElement("div");
             card.className = "product-card";
             card.innerHTML = `
-        <img src="${item.thumbnail}" alt="${item.title}">
+        <img src="images\IMG_8622 2.jpg" alt="${item.title}">
         <h3>${item.title}</h3>
         <a href="${item.link}" target="_blank" class="btn">View on Etsy</a>`;
             productGrid.appendChild(card);
